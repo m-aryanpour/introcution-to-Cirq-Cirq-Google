@@ -16,5 +16,15 @@ class MyGate1(cirq.SingleQubitGate):
 ## use custom gate
 a     = cirq.NamedQubit('a')
 gate1 = MyGate1()
-print(cirq.Circuit(gate1(a)))
+circuit1 = cirq.Circuit(gate1(a))
+print(circuit1)
 
+## simulate the circuit
+simulator = cirq.Simulator()
+result1   = simulator.simulate(circuit1)
+print(result1)
+
+##
+##a: ───λ───
+##measurements: (no measurements)
+##output vector: 0.6|0⟩ - 0.8|1⟩
