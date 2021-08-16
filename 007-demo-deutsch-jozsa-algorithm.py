@@ -1,3 +1,4 @@
+## THIS IS A COPIED EXAMPLE FROM THE CIRQ WEBSITE ##
 import cirq
 
 ##
