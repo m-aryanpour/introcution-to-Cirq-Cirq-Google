@@ -50,7 +50,7 @@ cirq.Circuit(cirq.decompose(HX(a), intercepting_decomposer=my_decompose))
 def keep_h_and_x(op):
     return isinstance(op, cirq.GateOperation) and op.gate in [cirq.H, cirq.X]
 
-
+##
 # Decompose the HXGate using a custom predicate for which gates to not decompose.
 print(cirq.decompose(HX(a), keep=keep_h_and_x))
 
