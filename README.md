@@ -1,4 +1,4 @@
-# introduction-to-Cirq-Cirq-Google
+# introduction-to-Cirq
 A set of scripts on Cirq including partial results 
 
 Scripts are to demonstrate using Cirq.
